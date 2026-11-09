@@ -1,0 +1,12 @@
+{
+  "name": "Conocete · Tests de personalidad",
+  "short_name": "Conocete",
+  "description": "Tests de personalidad gratis con resultados completos.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f6f5f1",
+  "theme_color": "#3b6fd4",
+  "lang": "es-AR",
+  "icons": [{ "src": "icono.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }]
+}

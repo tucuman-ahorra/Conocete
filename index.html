@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Conocete · Tests de personalidad gratis, con resultados completos</title>
+  <meta name="description" content="Tests de personalidad gratuitos con resultados completos al instante: Big Five, intereses vocacionales, valores, inteligencia emocional y estilo personal. Sin registro ni pagos.">
+  <meta name="theme-color" content="#3b6fd4">
+  <meta property="og:title" content="Conocete · Tests de personalidad gratis">
+  <meta property="og:description" content="Resultados completos sin pagar ni registrarte. Tus respuestas quedan en tu dispositivo.">
+  <meta property="og:type" content="website">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icono.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <a class="salto" href="#app">Saltar al contenido</a>
+  <header class="barra">
+    <div class="barra-in">
+      <a class="marca" href="#/"><span class="marca-punto" aria-hidden="true"></span><span id="nombre-sitio">Conocete</span></a>
+      <nav class="menu" aria-label="Principal">
+        <a href="#/" data-nav="inicio">Tests</a>
+        <a href="#/historial" data-nav="historial">Mi resumen</a>
+        <a href="#/acerca" data-nav="acerca">Info</a>
+      </nav>
+      <button class="btn-icono" id="btn-tema" type="button" aria-label="Cambiar entre tema claro y oscuro" title="Tema">◐</button>
+    </div>
+  </header>
+  <main id="app" tabindex="-1"><noscript><p>Necesitás activar JavaScript para hacer los tests.</p></noscript></main>
+  <div id="avisos" aria-live="polite"></div>
+  <footer>
+    <p id="pie-texto"></p>
+    <p><a href="#/acerca">Sobre los tests</a> · <a href="#/privacidad">Privacidad</a></p>
+  </footer>
+
+  <script src="config.js"></script>
+  <script src="motor.js"></script>
+  <script src="datos-bigfive.js"></script><script src="textos-bigfive.js"></script>
+  <script src="datos-intereses.js"></script><script src="textos-intereses.js"></script>
+  <script src="datos-estilo.js"></script><script src="textos-estilo.js"></script>
+  <script src="datos-valores.js"></script><script src="textos-valores.js"></script>
+  <script src="datos-ie.js"></script><script src="textos-ie.js"></script>
+  <script src="graficos.js"></script>
+  <script src="ui-base.js"></script>
+  <script src="ui-preguntas.js"></script>
+  <script src="ui-resultados.js"></script>
+  <script src="compartir.js"></script>
+  <script src="ui.js"></script>
+</body>
+</html>
